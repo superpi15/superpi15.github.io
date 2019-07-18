@@ -81,16 +81,6 @@
 <body>
     <h1>N53H</h1>
     
-<!-- SOUND -->
-    <!-- sound origin https://youtu.be/2Lz3qXkgi_c  -->
-    <!-- edit by https://audiotrimmer.com/ -->
-    <audio loop onloadeddata="var audioPlayer = this; setTimeout(function() { audioPlayer.play(); }, 0)">
-        <source src="sound/rain_fade2.mp3" type="audio/mp3" />
-    </audio>
-    <audio loop onloadeddata="var audioPlayer2 = this; setTimeout(function() { audioPlayer2.play(); }, 4000)">
-        <source src="sound/rain_fade3.mp3" type="audio/mp3" />
-    </audio>
-<!-- SOUND -->
 <!-- RAIN -->
       <div class="rain front-row"></div>
     <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
@@ -125,5 +115,17 @@
             to end<br>
         </div>
     </div>
+    
+<!-- SOUND -->
+    <!-- sound origin https://youtu.be/2Lz3qXkgi_c  -->
+    <!-- edit by https://audiotrimmer.com/ -->
+    <audio loop controls onloadeddata="var audioPlayer = this; setTimeout(function() { audioPlayer.play(); }, 0)">
+        <source src="sound/rain_fade2.mp3" type="audio/mp3" />
+    </audio>
+    <audio loop controls onloadeddata="var audioPlayer2 = this; setTimeout(function() { audioPlayer2.play(); }, 4000)">
+        <source src="sound/rain_fade3.mp3" type="audio/mp3" />
+    </audio>
+<!-- SOUND -->
+    
 </body>
 </html>
