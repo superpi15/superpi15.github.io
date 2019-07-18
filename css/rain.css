@@ -1,8 +1,5 @@
-html {
-  height: 100%;
-}
-
 body {
+  width: 95vw;
   height: 100%;
   margin: 0;
   overflow: hidden;
